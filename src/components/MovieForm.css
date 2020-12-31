@@ -1,0 +1,26 @@
+.movie-form {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.movie-form h1 {
+  text-align: center;
+}
+
+.movie-form .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.movie-form .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.movie-form .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+}
