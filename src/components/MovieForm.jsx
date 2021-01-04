@@ -62,6 +62,7 @@ export default class MovieForm extends Component {
               <label htmlFor="title">Name</label>
               <input
                 type="text"
+                required="required"
                 id="title"
                 name="title"
                 placeholder="Title"
@@ -73,6 +74,7 @@ export default class MovieForm extends Component {
               <label htmlFor="poster">Poster</label>
               <input
                 type="text"
+                required="required"
                 id="poster"
                 name="poster"
                 placeholder="http://..."
@@ -84,6 +86,7 @@ export default class MovieForm extends Component {
               <label htmlFor="comment">Comment</label>
               <input
                 type="textarea"
+                required="required"
                 id="comment"
                 name="comment"
                 onChange={this.onChange}
